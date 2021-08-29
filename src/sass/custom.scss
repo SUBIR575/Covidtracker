@@ -1,0 +1,67 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.menu{
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 18px;
+}
+.menu:hover{
+  color: rgb(206, 192, 3);
+  text-decoration: none;
+}
+.slide_title{
+  margin-top: -30%;
+}
+.card{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 15px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.no_title{
+  display: flex;
+  justify-content: center;
+}
+.thead-dark{
+  background-color: black;
+  color: azure;
+}
+.res-table{
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.tab-res{
+  padding: 10px;
+}
+td:hover{
+  background-color: darkgray;
+}
+td{
+  margin: 10px;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+}
+
+body {
+  font-family: myFirstFont;
+}
+.thead-dark{
+  position: sticky;
+  top: 0;
+}
